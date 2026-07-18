@@ -1,4 +1,8 @@
 interface:
+  display_name: "提示词清晰度评分"
+  short_description: "跨 Agent 评估提示词猜测空间，提供评分、建议和优化版本"
+  default_prompt: "使用 $prompt-clarity-scorer 执行提示词清晰度评分。"
+interface:
   display_name: "提示词清晰度评分器"
   short_description: "评估提示词的猜测空间，并提供评分、追问建议和优化版本"
   default_prompt: "使用 $prompt-clarity-scorer 检查这份提示词并帮我改得更清楚。"
